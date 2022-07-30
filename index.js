@@ -21,7 +21,7 @@ const renderItem = function (arr) {
   arr.forEach(el => {
     const item = `<div class="item">
 		<div class="itemHeader">
-			<img src="./images/138090485-.webp" alt="#">
+			<img src="./images/cart.jpg" alt="#">
 		</div>
 		<div class="itemBody">
 			<h2>${el.name}</h2>
