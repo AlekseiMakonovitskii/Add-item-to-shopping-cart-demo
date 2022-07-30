@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-size: 24px;
+  max-height: 100vh;
+}
+
+.leftSection {
+  width: 70%;
+  background: rgb(45, 44, 44);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftSection form {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 80%;
+  height: 20%;
+  margin-bottom: 10px;
+  font-size: 70px;
+  text-align: center;
+  outline: none;
+}
+
+.addBtn {
+  width: 80%;
+  height: 20%;
+  background: rgb(79, 79, 79);
+  color: white;
+  font-size: 54px;
+  font-weight: 900;
+  border: 0;
+}
+
+.items {
+  width: 100%;
+  overflow: auto;
+}
+
+.addBtn:hover {
+  background: rgb(116, 116, 116);
+}
+
+.rightSection {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  background: rgb(79, 79, 79);
+  padding: 15px;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 100%;
+  background: rgb(116, 116, 116);
+  margin-bottom: 10px;
+}
+
+.item:hover {
+  background: rgb(44, 44, 44);
+}
+
+.itemHeader {
+  width: 30%;
+  height: 100%;
+  background: red;
+}
+
+.itemHeader img {
+  height: 100%;
+  width: 100%;
+}
+
+.itemBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 60%;
+  height: 100%;
+}
+
+.itemFooter {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-direction: column;
+  width: 10%;
+  height: 100%;
+}
+
+.closeBtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  height: 50px;
+  width: 50px;
+  background: none;
+  color: white;
+  font-size: 35px;
+}
+
+.closeBtn:hover {
+  background: rgb(122, 86, 86);
+}
